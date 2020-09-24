@@ -1,0 +1,47 @@
+git blame:
+
+karox enq imanal file i amen toxum ov a authory exel vor change-er a arel
+file -i history -i konkret keter en erevum
+
+git blame y konkret file -eri vrayi changern en erevum
+
+orinak:
+git blame file_1.txt
+
+cuyc kta 
+-> commiti hashy, te vor commiti jamanak en changer exel, 
+-> ov a authory, 
+-> erb a arel changey, aysinqn timestampy,
+-> toxi tivy, asenq 2, nshanakuma 2rd toxum en changer exel
+-> u file i et toxery cuyc kta, voronq change en exel, asenq avelacel en kam poxvel, aysinqn et toxi contenty
+
+
+voch te commiti hashov nayenq
+vortev git log *commit hash*, commiti history cuyc kta
+
+karox enq git blame -L anel,
+et nshanakum a sahmanapakum enq toxeri tivy
+
+git blame -L 1, 5 file_2.txt
+aysinqn sahmanapakum enq vor 1ic 5 toxery beri
+
+ete arajin toxn a petq
+git blame -L 1,1 file_2.txt
+
+ete menak 2rd toxn a petq
+git blame -L 2,2 file_2.txt
+
+git blame -e file_2.txt
+cuyc a talis author i mail addressy, username i poxaren
+
+git blame -w file.txt
+ignore a anum whitespace changery, aysinqn ete space, tab, new line ban a exel, dranq chi berelu vorpes changer
+
+git blame -M file.txt
+es tesnum a te et linery vortexic en copy kam moved exel, u voch te cuyc a talis copy anoxin vorpes author,
+ayl ov et linery iroq grel a, bayc et sax nuyn file i mej eli
+
+git blame -C file.txt
+es tesnum a te linery vortexic en copy kam moved exel,
+u cuyc a talis en authorin ov et originaln a stexcel, ayl voch te copy anoxin,
+bayc es en depqum vor tarber fileric a copy kam moved exel
